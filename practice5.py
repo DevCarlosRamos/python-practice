@@ -2,5 +2,8 @@
 
 cadena = 'Carlos';
 
-for i in range(0,len(cadena)):
-    print(cadena[i]);
+for i in range(len(cadena)-1,-1,-1):
+    print(cadena[i],end='');
+
+print();
+print(cadena[::-1]);
